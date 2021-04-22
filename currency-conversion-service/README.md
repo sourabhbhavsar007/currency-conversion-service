@@ -8,13 +8,12 @@ We currently have 2 endpoints :
 
 1) http://localhost:8080/api/exchange-rate/{baseCurrency}/{targetCurrency}/{units}
 
-The above endpoints takes in date, baseCurrency and targetCurrency as parameters and return currency conversion rate 
-for targetCurrency w.r.t baseCurrency at the specified date.
+The above endpoints takes in date, baseCurrency and targetCurrency and units as parameters and return currency conversion rate 
+for targetCurrency w.r.t baseCurrency.
 
 Note : The above endpoint is implemented and working fine, but since, our external API (http://data.fixer.io)
 ony allows request from its premium or paid members, we are getting response as Forbidden Access, since I'm using it as a trial user.
 
-This exception gracefully in the code.
 
 Since, a lot of API's are blocked or restricted to trial users on external API (http://data.fixer.io), it becomes 
 very difficult to analyze trend of currency conversion rates in past dates and implement any other functionalities.
