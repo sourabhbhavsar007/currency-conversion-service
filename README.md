@@ -39,7 +39,14 @@ The above endpoint redirects, returns URL of external public URL which interacti
 
 Please find screenshots below of the API responses for reference :
 
+1) 
 
 ![Screen Shot 2021-04-22 at 8 16 35 PM](https://user-images.githubusercontent.com/30754286/115748420-c71d6d00-a3b3-11eb-9e6a-a8db9f9a45ec.png)
+
+
+
+
+2)
+
 ![Screen Shot 2021-04-22 at 8 16 55 PM](https://user-images.githubusercontent.com/30754286/115748444-cc7ab780-a3b3-11eb-9d6e-8882d567a9a6.png)
 
